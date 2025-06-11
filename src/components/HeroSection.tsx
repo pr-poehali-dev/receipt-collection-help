@@ -10,17 +10,17 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Профессиональный
+                Поможем собрать
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
                   {" "}
-                  сбор чеков{" "}
+                  кассовые чеки{" "}
                 </span>
-                для вашего бизнеса
+                из открытых источников
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Получайте актуальные данные о ценах конкурентов, анализируйте
-                рынок и принимайте обоснованные решения с нашими услугами сбора
-                кассовых чеков
+                рынок и принимайте обоснованные решения с нашей помощью в сборе
+                кассовых чеков из открытых источников
               </p>
             </div>
 

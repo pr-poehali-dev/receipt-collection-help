@@ -55,11 +55,11 @@ const Services = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Наши услуги
+                Услуги по сбору чеков
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Комплексные решения для сбора, анализа и интерпретации данных с
-                кассовых чеков для роста вашего бизнеса
+                Помогаем собирать и анализировать кассовые чеки из открытых
+                источников для получения ценной рыночной информации
               </p>
             </div>
 
