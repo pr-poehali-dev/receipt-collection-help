@@ -82,6 +82,10 @@ const Footer = () => {
                 <Icon name="Mail" size={16} />
                 <span>info@chekanalytik.ru</span>
               </div>
+              <div className="flex items-center space-x-2">
+                <Icon name="Building" size={16} />
+                <span>ИНН: 771515856870</span>
+              </div>
               <div className="flex space-x-4 pt-2">
                 <a href="#" className="hover:text-white">
                   <Icon name="MessageCircle" size={20} />
