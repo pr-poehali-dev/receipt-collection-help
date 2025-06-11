@@ -73,6 +73,24 @@ const Pricing = () => {
                 источников. Все планы включают полную техническую поддержку и
                 гарантию качества данных
               </p>
+              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mt-8 max-w-4xl mx-auto">
+                <div className="flex items-start">
+                  <Icon
+                    name="alert-triangle"
+                    className="w-5 h-5 text-yellow-600 mt-0.5 mr-3 flex-shrink-0"
+                  />
+                  <div>
+                    <p className="text-sm font-medium text-yellow-800 mb-1">
+                      Важная информация
+                    </p>
+                    <p className="text-sm text-yellow-700">
+                      Мы предоставляем услуги по анализу и обработке данных из
+                      открытых источников. Мы НЕ занимаемся продажей самих
+                      кассовых чеков.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

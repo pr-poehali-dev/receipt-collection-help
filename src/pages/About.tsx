@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import DisclaimerBanner from "@/components/DisclaimerBanner";
 
 const About = () => {
   const team = [
@@ -38,6 +39,7 @@ const About = () => {
       <main>
         <section className="bg-gradient-to-br from-purple-50 to-blue-50 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <DisclaimerBanner />
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 О компании ЧекАналитик

@@ -61,6 +61,28 @@ const Services = () => {
                 Помогаем собирать и анализировать кассовые чеки из открытых
                 источников для получения ценной рыночной информации
               </p>
+
+              <div className="mt-8 max-w-4xl mx-auto">
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                  <div className="flex items-start space-x-3">
+                    <Icon
+                      name="AlertTriangle"
+                      className="text-amber-600 flex-shrink-0 mt-0.5"
+                      size={20}
+                    />
+                    <div>
+                      <h3 className="font-semibold text-amber-800 mb-1">
+                        Важная информация
+                      </h3>
+                      <p className="text-amber-700 text-sm">
+                        Мы не занимаемся продажей самих кассовых чеков. Наши
+                        услуги включают только сбор и анализ данных из открытых
+                        источников в соответствии с законодательством.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
